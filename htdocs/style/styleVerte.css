@@ -1,0 +1,439 @@
+/* Style pour le titre */
+h1 {
+  color: rgb(1, 0, 35);
+  text-shadow: 2px 2px 4px #959facf3;
+  text-align: center;
+  font-family: "Montreal TS Regular", Times, serif;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 4px #b0adf6;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 10%;
+}
+/* Style pour le tableau */
+table {
+  margin: auto;
+  width: 90%;
+  margin-top: 20px;
+  background-color: #f8f9fa;
+  border: 2px groove #cce5ff;
+  border-radius: 10px;
+  box-shadow: 12px 12px 91px 100px rgba(0, 0, 0, 0.1),
+    14px 14px 9px -3px rgba(0, 0, 0, 0.1);
+}
+/* Style pour les lignes impaires */
+tr:nth-child(odd) {
+  background-color: #f2f2f2; /* Couleur de fond pour les lignes impaires */
+}
+
+/* Style pour les lignes paires */
+tr:nth-child(even) {
+  background-color: #ffffff; /* Couleur de fond pour les lignes paires */
+}
+
+/* Style pour les cellules du tableau */
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #5f857592;
+}
+
+/* Style pour la première ligne du tableau (en-tête) */
+th {
+  background-color: #5f8575;
+  font-weight: bold;
+  color: #333;
+  background-color: #5f857569;
+  border-bottom: 3px solid #5f8575;
+  border-radius: 2px;
+  text-align: center;
+}
+
+/* Styles pour les boutons */
+.btn {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #5f8575;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.01s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Styles pour le formulaire */
+body,
+html {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+}
+a {
+  background-color: #0056b3;
+  padding-left: 10%;
+  padding: 0;
+}
+/* Styles pour les étiquettes */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Styles pour les champs de saisie */
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Styles pour les cases à cocher */
+input[type="checkbox"] {
+  margin-right: 7px;
+}
+.mdp {
+  background-color: #0056b3;
+}
+
+#num_poste_field {
+  display: none;
+}
+
+/* Styles pour les boutons de soumission */
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.add-btn {
+  color: #000;
+}
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Styles pour les messages d'erreur */
+.error-message {
+  color: rgb(0, 0, 0);
+}
+
+/* Styles pour les champs de saisie de numéro */
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Styliser la flèche de l'input number */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Styliser le texte à l'intérieur de l'input number */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.deco-btn:hover {
+  color: #ffffff;
+}
+
+/* Styliser les champs invalides (si le numéro est en dehors de la plage spécifiée) */
+input[type="number"]:invalid {
+  border-color: rgb(0, 0, 0);
+  color: red;
+}
+
+/* Styliser les champs valides */
+input[type="number"]:valid {
+  border-color: green;
+}
+
+.add-btn {
+  background-color: #008000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  float: left;
+  margin-left: 50%;
+}
+
+.add-btn:hover {
+  background-color: #006400; /* Couleur de fond au survol */
+}
+
+p {
+  margin-bottom: 20px;
+  text-align: center;
+}
+/* Styles du menu */
+.menu {
+  list-style-type: none;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  padding: 0;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  background-color: #afdcc9be;
+}
+/* Styles spécifiques au tableau */
+.t {
+  margin-left: 20px;
+}
+
+.menu li {
+  color: #001b46;
+  display: inline;
+  margin-right: 20px;
+  transition: background-color 3s;
+  top: 0;
+  width: 100%;
+}
+.export {
+  color: #008000;
+}
+input:checked {
+  height: 50px;
+  width: 50px;
+}
+.menu li a {
+  display: inline-block;
+  color: #001b46;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+
+.menu li a:hover {
+  color: #274500; /* Change la couleur au survol */
+}
+.menu li a:active {
+  background-color: #000;
+  color: #274500; /* Change la couleur au survol */
+  transition: 0.00000004ms;
+}
+button,
+a {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button {
+  background-color: #dc3545;
+  color: white;
+  margin-right: 10px;
+}
+
+a {
+  background-color: #007bff;
+  color: white;
+}
+
+button:hover,
+a:hover {
+  opacity: 0.8;
+}
+form[action="logout.php"] {
+  text-align: right;
+}
+
+form[action="logout.php"] input[type="submit"] {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 10px 10px;
+  cursor: pointer;
+  border-radius: 25px;
+  font-weight: bold;
+  float: right;
+  margin-left: 10px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+}
+
+form[action="logout.php"] input[type="submit"]:hover {
+  background-color: #ca0000;
+  box-shadow: inset;
+  color: #0056b3;
+}
+
+/* Style du pied de page */
+footer {
+  background-color: #0414432e;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/* Style du texte dans le pied de page */
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Styles pour l'en-tête */
+header {
+  background-color: #afdcc9be; /* Couleur de fond de l'en-tête */
+  padding: 10px 20px; /* Espacement interne */
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.ti {
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 4px #b0adf6;
+  text-align: center;
+}
+.header-content {
+  display: flex; /* Utilisation de flexbox pour aligner les éléments */
+  align-items: center; /* Aligner les éléments sur la même ligne */
+  justify-content: space-between; /* Répartir les éléments de manière égale sur l'en-tête */
+}
+
+/* Styles pour l'icône */
+.header-content img {
+  margin-top: 30px;
+  width: 10%;
+  text-align: center;
+}
+
+/* Styles pour le titre */
+.header-content h1 {
+  text-align: center;
+}
+
+/* Styles pour le bouton de déconnexion */
+.logout-container {
+  margin-left: auto; /* Déplace le bouton de déconnexion à droite */
+}
+
+.btn.deco-btn {
+  background-color: #970000d1;
+}
+/* Style pour le champ de mot de passe */
+.password-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #f8f8f8; /* Couleur de fond */
+  color: #333; /* Couleur du texte */
+  font-size: 16px; /* Taille de la police */
+  font-family: Arial, sans-serif; /* Police de caractères */
+}
+
+/* Style pour l'effet de focus */
+.password-field:focus {
+  border-color: #5b9dd9; /* Couleur de la bordure lorsqu'en focus */
+  box-shadow: 0 0 5px #5b9dd9; /* Ombre lorsqu'en focus */
+}
+.espaceVide {
+  height: 200px;
+}
+#user_idpole {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 250px;
+  margin-bottom: 15px;
+  background-color: #f9f9f9;
+}
+#user_pseudo {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 250px;
+  margin-bottom: 10px;
+  transition: border-color 0.3s ease-in-out;
+}
+#user_pseudo:focus,
+#user_pseudo:hover {
+  border-color: #007bff;
+  outline: none;
+}
+#user_password {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 250px;
+  margin-bottom: 10px;
+  transition: border-color 0.3s ease-in-out;
+}
+.accueil {
+  margin-top: 100px;
+}
+.add-btn {
+  margin-top: 22px;
+  padding: 10%;
+}
+
+#user_password:focus,
+#user_password:hover {
+  border-color: #007bff;
+  outline: none;
+}
+
+form[action="login_process.php"] {
+  width: 250px;
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: inset;
+}
+#numTel {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 250px;
+  margin-bottom: 10px;
+  transition: border-color 0.3s ease-in-out;
+}
+#numTel:hover,
+#numTel:focus {
+  border-color: #007bff;
+  outline: none;
+}
