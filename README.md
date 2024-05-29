@@ -42,4 +42,4 @@ PHP, MySQL, Javascript, HTML, CSS
 
 ## Guide d'administration disponible au format PDF
 
-Pour la bon fonctionement du site n'oubliez pas à rajouter/decomenter des extensions PHP qui sont dans fichier "extensions_php_rajouter" fourni. 
+Pour le bon fonctionnement du site, n'oubliez pas d'ajouter ou de décommenter les extensions PHP qui se trouvent dans le fichier "extensions_php_rajouter" fourni.
