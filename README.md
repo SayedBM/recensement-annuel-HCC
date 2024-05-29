@@ -39,3 +39,6 @@ Partie Administrateur
 ## 🛠 Développeé avec
 PHP, MySQL, Javascript, HTML, CSS
 
+
+## Guide d'administration disponible au format PDF
+
