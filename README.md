@@ -40,6 +40,7 @@ Partie Administrateur
 PHP, MySQL, Javascript, HTML, CSS
 
 
-## Guide d'administration disponible au format PDF
-
-Pour le bon fonctionnement du site, n'oubliez pas d'ajouter ou de décommenter les extensions PHP qui se trouvent dans le fichier "extensions_php_rajouter" fourni.
+## Informations complémentaire
+- Guide d'administration disponible au format PDF
+- Pour le bon fonctionnement du site, n'oubliez pas d'ajouter ou de décommenter les extensions PHP qui se trouvent dans le fichier "extensions_php_rajouter" fourni.
+- Pour plus d'information consulter "Documentation de projet -recencement" disponible en format PDF
